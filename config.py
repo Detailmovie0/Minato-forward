@@ -11,7 +11,7 @@ class Config:
 
     PICS = (environ.get('PICS', 'https://graph.org/file/9d2fd2dd167e0d94635bd-11a2f9d585608d2b6f.jpg'))
     
-    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Moviehub:moviehub@cluster0.vahthyq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Filestore: Filestore@cluster0.28bohiq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
     
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002583655280'))
